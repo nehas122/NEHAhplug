@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<format version="1"/>
+<product version="23.11.3"/>
+<plugins>
+<plugin label="PI_Labor_Completion" action_label="" action_entity="activity" action_type="addon_action" type="addon">
+ <translations>
+  <translation lang="en" val="Labor Completion"/>
+ </translations>
+ <fields>
+  <field label="cname" entity="activity"/>
+  <field label="aworktype" entity="activity"/>
+  <field label="ETA" entity="activity"/>
+  <field label="aid" entity="activity"/>
+  <field label="pname" entity="provider"/>
+  <field label="external_id" entity="provider"/>
+  <field label="invpool" entity="inventory"/>
+  <field label="invtype" entity="inventory"/>
+  <field label="inv_aid" entity="inventory"/>
+  <field label="I_ITEM_DESCRIPTION" entity="inventory"/>
+  <field label="quantity" entity="inventory"/>
+  <field label="I_ITEM_NUMBER" entity="inventory"/>
+  <field label="A_PO_REQUIRED" entity="activity"/>
+  <field label="A_PO_NUMBER" entity="activity"/>
+  <field label="A_OEM" entity="activity"/>
+  <field label="A_TASK_TYPE" entity="activity"/>
+  <field label="A_SUSPEND_REASON" entity="activity"/>
+  <field label="A_COUNTER_BLACK_WHITE" entity="activity"/>
+  <field label="A_COUNTER_COLOR" entity="activity"/>
+  <field label="A_COUNTER_TOTAL" entity="activity"/>
+  <field label="A_PREVIOUS_BLACK_WHITE_READ" entity="activity"/>
+  <field label="A_PREVIOUS_COLOR_READ" entity="activity"/>
+  <field label="A_PREVIOUS_TOTAL_READ" entity="activity"/>
+  <field label="A_RESOLUTION_CODE" entity="activity"/>
+  <field label="I_ITEM_ORDER" entity="inventory"/>
+  <field label="A_ODOMETER_START" entity="activity"/>
+  <field label="A_ODOMETER_END" entity="activity"/>
+  <field label="A_SCAN_IN_TIME" entity="activity"/>
+  <field label="A_STATUS" entity="activity"/>
+  <field label="A_MACHINE_STATUS_BEFORE" entity="activity"/>
+  <field label="A_MACHINE_STATUS_AFTER" entity="activity"/>
+  <field label="A_SYMPTOM_MAJOR" entity="activity"/>
+  <field label="A_SYMPTOM_MINOR" entity="activity"/>
+  <field label="A_SYMPTOM_ADD_1" entity="activity"/>
+  <field label="A_SYMPTOM_ADD_2" entity="activity"/>
+  <field label="A_SYMPTOM_INSTRUCTIONS" entity="activity"/>
+  <field label="A_SYMPTOM_COMMENT" entity="activity"/>
+  <field label="A_CAUSE_MAJOR" entity="activity"/>
+  <field label="A_CAUSE_MINOR" entity="activity"/>
+  <field label="A_CAUSE_INSTRUCTIONS" entity="activity"/>
+  <field label="A_CAUSE_COMMENT" entity="activity"/>
+  <field label="A_ACTION_MAJOR" entity="activity"/>
+  <field label="A_ACTION_MINOR" entity="activity"/>
+  <field label="A_ACTION_INSTRUCTIONS" entity="activity"/>
+  <field label="A_ACTION_COMMENT" entity="activity"/>
+  <field label="A_LOCATION_MAJOR" entity="activity"/>
+  <field label="A_LOCATION_MINOR" entity="activity"/>
+  <field label="A_LOCATION_INSTRUCTIONS" entity="activity"/>
+  <field label="A_LOCATION_COMMENT" entity="activity"/>
+  <field label="A_TARGET_MAJOR" entity="activity"/>
+  <field label="A_TARGET_MINOR" entity="activity"/>
+  <field label="A_TARGET_INSTRUCTIONS" entity="activity"/>
+  <field label="A_TARGET_COMMENT" entity="activity"/>
+  <field label="A_COUNTER_SCANNING" entity="activity"/>
+  <field label="A_COUNTER_TOTAL_HOURS" entity="activity"/>
+  <field label="A_COUNTER_SCANNING_READ" entity="activity"/>
+  <field label="A_COUNTER_TOTAL_HOURS_READ" entity="activity"/>
+  <field label="A_METER_SKIP_REASON" entity="activity"/>
+  <field label="A_METER_RECONFIG" entity="activity"/>
+  <field label="A_METER_SKIP_COMMENT" entity="activity"/>
+  <field label="A_INDICATOR_11X17" entity="activity"/>
+  <field label="A_START_TIME" entity="activity"/>
+  <field label="A_START_TIME_OVERRIDE" entity="activity"/>
+  <field label="A_SCAN_IN_TIME_OVERRIDE" entity="activity"/>
+  <field label="A_SCAN_OUT_TIME" entity="activity"/>
+  <field label="A_SCAN_OUT_TIME_OVERRIDE" entity="activity"/>
+  <field label="A_LABOR_COMPLETE_COMMENTS" entity="activity"/>
+  <field label="I_SUBINVENTORY_NAME" entity="inventory"/>
+  <field label="A_LABOR_TIME" entity="activity"/>
+  <field label="A_FT_FLAG" entity="activity"/>
+  <field label="I_AUTHORIZATION_TYPE" entity="inventory"/>
+  <field label="A_DISPATCH_TIME" entity="activity"/>
+  <field label="I_ASL_COMMENT" entity="inventory"/>
+  <field label="I_OVERRIDE_OPTION" entity="inventory"/>
+  <field label="A_DISPATCH_TIME_OVERRIDE" entity="activity"/>
+  <field label="A_COUNTER_BLACK_WHITE_BEFORE" entity="activity"/>
+  <field label="A_COUNTER_BLACK_WHITE_AFTER" entity="activity"/>
+  <field label="A_COUNTER_COLOR_BEFORE" entity="activity"/>
+  <field label="A_COUNTER_COLOR_AFTER" entity="activity"/>
+  <field label="A_COUNTER_TOTAL_BEFORE" entity="activity"/>
+  <field label="A_COUNTER_TOTAL_AFTER" entity="activity"/>
+  <field label="I_SUBINVENTORY" entity="inventory"/>
+  <field label="R_CURRENT_ODOMETER_END" entity="provider"/>
+  <field label="I_DISPOSITION" entity="inventory"/>
+  <field label="A_INSTALL_STATUS" entity="activity"/>
+  <field label="A_DEINSTALL_CONFIRM" entity="activity"/>
+  <field label="A_DEBRIEF_ASL_CONTROL" entity="activity"/>
+  <field label="R_DEBRIEF_ASL_CONTROL" entity="provider"/>
+  <field label="I_DEBRIEF_MAX" entity="inventory"/>
+  <field label="I_DEBRIEF_MIN" entity="inventory"/>
+  <field label="A_DEBRIEF_ASL_DATA" entity="activity"/>
+  <field label="I_DEBRIEF_SUBINVENTORY" entity="inventory"/>
+  <field label="I_ASL_ELIGIBLE" entity="inventory"/>
+  <field label="A_CONSIGNMENT_PARTS_SUPPORT" entity="activity"/>
+  <field label="A_CONSIGNMENT_COMPLETE" entity="activity"/>
+  <field label="I_SUBINVENTORY_TYPE" entity="inventory"/>
+ </fields>
+ <secured_params>
+  <secured_param name="company"/>
+ </secured_params>
+ <plugin_data>
+  <plugin_data_item path="https://jcsp.ricohonline.net/PI-LaborCompletion/v14/index.html?username={uname}&amp;login={ulogin}&amp;timezone={su_zid}" post_data="" width="" height="" options="32" user_agent_mask="" sort_order="0" native_app_label="" auth_type="basic" auth_login=""/>
+ </plugin_data>
+</plugin>
+</plugins>
+</root>

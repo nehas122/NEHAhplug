@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<format version="1"/>
+<product version="23.11.3"/>
+<plugins>
+<plugin label="PI_View_Parts" action_label="" action_entity="activity" action_type="addon_action" type="addon">
+ <translations>
+  <translation lang="en" val="View Parts"/>
+ </translations>
+ <fields>
+  <field label="external_id" entity="provider"/>
+  <field label="invpool" entity="inventory"/>
+  <field label="invtype" entity="inventory"/>
+  <field label="invid" entity="inventory"/>
+  <field label="I_ITEM_DESCRIPTION" entity="inventory"/>
+  <field label="quantity" entity="inventory"/>
+  <field label="I_ITEM_NUMBER" entity="inventory"/>
+  <field label="I_ORDER_NUMBER" entity="inventory"/>
+  <field label="I_TRACKING_NUMBER" entity="inventory"/>
+  <field label="I_INVENTORY_KEY" entity="inventory"/>
+  <field label="I_MIN" entity="inventory"/>
+  <field label="I_MAX" entity="inventory"/>
+  <field label="I_SHIP_DATE" entity="inventory"/>
+  <field label="I_EXPECTED_DATE" entity="inventory"/>
+  <field label="I_CONTAINER_NUM" entity="inventory"/>
+  <field label="I_PRICE" entity="inventory"/>
+  <field label="I_SUBINVENTORY_NAME" entity="inventory"/>
+  <field label="R_SUBINVENTORY_LIST" entity="provider"/>
+  <field label="R_SUBINVENTORY_OWNER" entity="provider"/>
+  <field label="I_SUBINVENTORY" entity="inventory"/>
+  <field label="R_SUBINVENTORY_NAME" entity="provider"/>
+  <field label="I_PRIMARY_BIN_NAME" entity="inventory"/>
+  <field label="I_PRIMARY_BIN_QTY" entity="inventory"/>
+  <field label="I_SECONDARY_BIN_NAME" entity="inventory"/>
+  <field label="I_SECONDARY_BIN_QTY" entity="inventory"/>
+  <field label="I_OUTOFBOX_BIN_NAME" entity="inventory"/>
+  <field label="I_OUTOFBOX_BIN_QTY" entity="inventory"/>
+  <field label="I_BIN_MANAGEMENT" entity="inventory"/>
+  <field label="A_BIN_MGT" entity="activity"/>
+ </fields>
+ <secured_params>
+  <secured_param name="company"/>
+  <secured_param name="clientId"/>
+  <secured_param name="clientSecret"/>
+ </secured_params>
+ <plugin_data>
+  <plugin_data_item path="https://jcsp.ricohonline.net/PI-ViewParts/v4/index.html?timezone={su_zid}&amp;ulogin={ulogin}" post_data="" width="" height="" options="36" user_agent_mask="" sort_order="0" native_app_label="" auth_type="basic" auth_login=""/>
+ </plugin_data>
+</plugin>
+</plugins>
+</root>

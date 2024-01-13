@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<format version="1"/>
+<product version="23.11.3"/>
+<plugins>
+<plugin label="3850_navigation_native_app" action_label="navigation_native_app" action_entity="activity" action_type="action" type="external_native">
+ <translations>
+  <translation lang="en" val="Navigate"/>
+  <translation lang="no" val="Naviger"/>
+  <translation lang="ru" val="Навигация"/>
+  <translation lang="tw" val="導覽"/>
+ </translations>
+ <plugin_data>
+  <plugin_data_item path="geo:0,0?q={acoord_y},{acoord_x}" post_data="" width="" height="" options="" user_agent_mask="*Android*" sort_order="0" native_app_label="Navigation Android" auth_type="" auth_login=""/>
+  <plugin_data_item path="http://maps.apple.com/?q={acoord_y},{acoord_x}" post_data="" width="" height="" options="" user_agent_mask="*(?:iPad|iPod|iPhone)*" sort_order="1" native_app_label="Navigation iOS" auth_type="" auth_login=""/>
+  <plugin_data_item path="https://maps.google.com/?q={acoord_y},{acoord_x}" post_data="" width="" height="" options="" user_agent_mask="*" sort_order="2" native_app_label="Navigation other" auth_type="" auth_login=""/>
+ </plugin_data>
+</plugin>
+</plugins>
+</root>

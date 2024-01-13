@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<format version="1"/>
+<product version="23.11.3"/>
+<plugins>
+<plugin label="ARMS" action_label="" action_entity="activity" action_type="external_plugin_action" type="external">
+ <translations>
+  <translation lang="en" val="ARMS"/>
+ </translations>
+ <plugin_data>
+  <plugin_data_item path="https://www2.cws.ricoh.co.jp/ARMS/login.jsp" post_data="" width="" height="" options="8" user_agent_mask="" sort_order="0" native_app_label="" auth_type="" auth_login=""/>
+ </plugin_data>
+</plugin>
+</plugins>
+</root>

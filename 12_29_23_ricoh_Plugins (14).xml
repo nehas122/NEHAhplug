@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<format version="1"/>
+<product version="23.11.3"/>
+<plugins>
+<plugin label="PI-AddASLParts" action_label="" action_entity="activity" action_type="addon_action" type="addon">
+ <translations>
+  <translation lang="en" val="ASL Parts"/>
+ </translations>
+ <fields>
+  <field label="aid" entity="activity"/>
+  <field label="pid" entity="provider"/>
+  <field label="pname" entity="provider"/>
+  <field label="external_id" entity="provider"/>
+  <field label="invpool" entity="inventory"/>
+  <field label="invtype" entity="inventory"/>
+  <field label="invid" entity="inventory"/>
+  <field label="inv_aid" entity="inventory"/>
+  <field label="inv_pid" entity="inventory"/>
+  <field label="I_ITEM_DESCRIPTION" entity="inventory"/>
+  <field label="quantity" entity="inventory"/>
+  <field label="I_ITEM_NUMBER" entity="inventory"/>
+  <field label="I_INVENTORY_KEY" entity="inventory"/>
+  <field label="I_MIN" entity="inventory"/>
+  <field label="I_MAX" entity="inventory"/>
+  <field label="I_ITEM_COST" entity="inventory"/>
+  <field label="I_SUBINVENTORY_NAME" entity="inventory"/>
+  <field label="I_CURRENT_MIN" entity="inventory"/>
+  <field label="I_CURRENT_MAX" entity="inventory"/>
+  <field label="I_SUGGESTED_MIN" entity="inventory"/>
+  <field label="I_SUGGESTED_MAX" entity="inventory"/>
+  <field label="I_AUTHORIZATION_TYPE" entity="inventory"/>
+  <field label="I_REQ_MAX_QUANTITY" entity="inventory"/>
+  <field label="I_REQ_MIN_QUANTITY" entity="inventory"/>
+  <field label="I_ASL_COMMENT" entity="inventory"/>
+  <field label="I_OVERRIDE_OPTION" entity="inventory"/>
+  <field label="I_ASL_APPROVE" entity="inventory"/>
+  <field label="I_SUBINVENTORY" entity="inventory"/>
+  <field label="R_SUBINVENTORY_NAME" entity="provider"/>
+  <field label="A_SUBINVENTORY_NAME" entity="activity"/>
+  <field label="A_SUBINVENTORY" entity="activity"/>
+  <field label="I_REVIEWED" entity="inventory"/>
+  <field label="A_ASL_APPROVAL_REQUIRED" entity="activity"/>
+  <field label="I_ASL_APPROVAL_REQUIRED" entity="inventory"/>
+ </fields>
+ <plugin_data>
+  <plugin_data_item path="https://jcsp.ricohonline.net/PI-ASLRequest/v2/addASLParts.html?ASLCostApprovalLimit=200&amp;numberOfASLItemsAllowed=10&amp;maxQtyAllowed=20" post_data="" width="" height="" options="36" user_agent_mask="" sort_order="0" native_app_label="" auth_type="basic" auth_login=""/>
+ </plugin_data>
+</plugin>
+</plugins>
+</root>

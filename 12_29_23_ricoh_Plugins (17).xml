@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<format version="1"/>
+<product version="23.11.3"/>
+<plugins>
+<plugin label="PI_Order_Parts" action_label="list_inventories" action_entity="activity" action_type="addon_action" type="addon">
+ <translations>
+  <translation lang="en" val="Order Parts"/>
+ </translations>
+ <fields>
+  <field label="aid" entity="activity"/>
+  <field label="pid" entity="provider"/>
+  <field label="external_id" entity="provider"/>
+  <field label="invpool" entity="inventory"/>
+  <field label="invtype" entity="inventory"/>
+  <field label="invid" entity="inventory"/>
+  <field label="inv_aid" entity="inventory"/>
+  <field label="I_ITEM_DESCRIPTION" entity="inventory"/>
+  <field label="quantity" entity="inventory"/>
+  <field label="I_ITEM_NUMBER" entity="inventory"/>
+  <field label="R_MANAGER_NAME" entity="provider"/>
+  <field label="R_AREA" entity="provider"/>
+  <field label="A_OEM" entity="activity"/>
+  <field label="I_ITEM_COST" entity="inventory"/>
+  <field label="I_ITEM_PRICE" entity="inventory"/>
+  <field label="I_PRICE" entity="inventory"/>
+  <field label="A_WAREHOUSE_RESULTS" entity="activity"/>
+  <field label="I_ITEM_ORDER" entity="inventory"/>
+  <field label="R_CAN_ORDER_OEM" entity="provider"/>
+  <field label="A_ORDER_POSTAL_CODE" entity="activity"/>
+  <field label="A_ORDER_STATE" entity="activity"/>
+  <field label="A_ORDER_CITY" entity="activity"/>
+  <field label="A_ORDER_ADDRESS_1" entity="activity"/>
+  <field label="A_ORDER_ADDRESS_2" entity="activity"/>
+  <field label="A_ORDER_OEM" entity="activity"/>
+  <field label="A_ORDER_SHIP_METHOD" entity="activity"/>
+  <field label="I_IGNORE_FLAG" entity="inventory"/>
+  <field label="A_ORDER_LOCATION_CODE" entity="activity"/>
+  <field label="R_COST_LIMIT" entity="provider"/>
+  <field label="A_ORDER_OVERLIMIT" entity="activity"/>
+  <field label="I_SUBINVENTORY" entity="inventory"/>
+  <field label="A_ORDER_PARTS" entity="activity"/>
+  <field label="A_ADDRESS_TYPE" entity="activity"/>
+  <field label="A_ORDER_SUBINVENTORY" entity="activity"/>
+  <field label="R_ADDRESS" entity="provider"/>
+  <field label="R_SUBINVENTORY_NAME" entity="provider"/>
+  <field label="A_SHIP_OPTION" entity="activity"/>
+  <field label="A_FSL_RESULTS" entity="activity"/>
+  <field label="A_QUANTITY" entity="activity"/>
+  <field label="A_ORDERPARTS_OEM" entity="activity"/>
+  <field label="A_ORDERPARTS_ORDERED" entity="activity"/>
+  <field label="A_ORDERLIMIT_MESSAGE" entity="activity"/>
+ </fields>
+ <secured_params>
+  <secured_param name="company"/>
+  <secured_param name="clientId"/>
+  <secured_param name="clientSecret"/>
+  <secured_param name="orderPartsSRType"/>
+  <secured_param name="timeDiff"/>
+  <secured_param name="radius"/>
+ </secured_params>
+ <plugin_data>
+  <plugin_data_item path="https://jcsp.ricohonline.net/PI-InstallOrder/v19/orderParts.html?timezone={su_zid}&amp;ulogin={ulogin}" post_data="" width="" height="" options="32" user_agent_mask="" sort_order="0" native_app_label="" auth_type="basic" auth_login=""/>
+ </plugin_data>
+</plugin>
+</plugins>
+</root>

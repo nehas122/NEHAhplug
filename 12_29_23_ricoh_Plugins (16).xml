@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<format version="1"/>
+<product version="23.11.3"/>
+<plugins>
+<plugin label="C_TECH_ACTIVITY_RPT" action_label="" action_entity="provider" action_type="external_plugin_action" type="external">
+ <translations>
+  <translation lang="en" val="Tech Activity Report"/>
+ </translations>
+ <plugin_data>
+  <plugin_data_item path="https://analytics.ricohonline.org/analytics/saw.dll?Dashboard&amp;PortalPath=%2Fshared%2FTech%20Workforce%20Management%2F_portal%2FTech%20Workforce%20Management&amp;page=Technician%20Activity%20Report&amp;Action=Navigate&amp;col1=%22%22OFSC%20Technician%20Resource%20Details%20Dim%22.%22Base%20Resource%20Id%22%22&amp;val1=&quot;{external_id}&quot;&amp;col2=%22OFSC%20Technician%20Resource%20Details%20Dim%22.%22Base%20Resource%20Id%22&amp;val2=&quot;{external_id}&quot;&amp;psa2=%22Tech%20Workforce%20Management%22" post_data="" width="" height="" options="8" user_agent_mask="" sort_order="0" native_app_label="" auth_type="" auth_login=""/>
+ </plugin_data>
+</plugin>
+</plugins>
+</root>

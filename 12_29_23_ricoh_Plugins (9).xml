@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<format version="1"/>
+<product version="23.11.3"/>
+<plugins>
+<plugin label="C_SR_AGING_REPORT_MOBILITY" action_label="" action_entity="" action_type="external_plugin_action" type="external">
+ <translations>
+  <translation lang="en" val="SR Aging Report"/>
+ </translations>
+ <plugin_data>
+  <plugin_data_item path="https://analytics.ricohonline.org/analytics/saw.dll?Dashboard&amp;PortalPath=%2Fshared%2FOFSC%2F_portal%2FOFSC Dashboard&amp;page=page 1&amp;Action=Navigate&amp;p0=1&amp;p1=eq&amp;p2=&quot;OFSC Resource Details Dim&quot;.&quot;Base Resource Id&quot;&amp;p3=&quot;{external_id}&quot;" post_data="" width="" height="" options="32" user_agent_mask="" sort_order="0" native_app_label="" auth_type="" auth_login=""/>
+ </plugin_data>
+</plugin>
+</plugins>
+</root>
